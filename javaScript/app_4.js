@@ -1,18 +1,8 @@
-function digit(n) {
+let n = +prompt('Enter number');
 
-    if (n === 1) {
-        return false;
+for (let i = 1; i <= n; i++) {
+    if (i > 1) {
+    } else if (n / n === 1) {
+        console.log(1)
     }
-    else if (n === 2) {
-        return true;
-    } else {
-        for (var x = 2; x < n; x++) {
-            if (n % x === 0) {
-                return false;
-            }
-        }
-        return true;
-    }
-}
-
-console.log(digit(prompt('enter number')));
+} 
